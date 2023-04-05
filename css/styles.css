@@ -123,6 +123,7 @@ body {
 
 .hero-title {
   font-family: var(--secondery-font);
+  text-align: center;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -137,22 +138,78 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--color-white);
-  background: var(--color-iris);
+  background-color: var(--color-ocean);
 }
 
-/* section */
+.hero-button .link:hover,
+.hero-button .link:focus{
+  cursor: pointer;
+  background-color: var(--color-ocean);
+}
+
+
+/* section 2*/
 
 .section-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--color-navy-blue);
 }
 
-.subtitle {
-  color: var(--color-navy-blue)
-}
-
 .text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--color-slate);
 }
+
+/* section 3 */
+
+  .img-title{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--color-navy-blue);
+  }
+   /* section 4 */
+
+.images-title{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  background-color: var(--color-cloud);
+}
+
+.subtitle{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue); 
+  background-color: var(--color-white);
+}
+
+.text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+
+
 
 /* footer */
 .footer {
