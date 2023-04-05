@@ -25,62 +25,64 @@ body {
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 /* logo */
 
 .logo {
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-
-    color: var(--color-iris);
+  font-family: var(--primary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--color-iris);
 }
 
 .logo-dark {
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-
-    color: var(--color-navy-blue);
+  color: var(--color-navy-blue);
 }
-
+.logo-light{
+ color: var(--color-cloud);
+}
 .logo:hover,
 .logo:focus {
-    color: var(--color-iris);
+  color: var(--color-iris);
 }
 
 /* site-nav */
 
 .site-nav .link {
-    color: var(--color-navy-blue);
+  font-family: var(--secondery-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1,5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--color-navy-blue);
+
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: var(--color-iris);
+  color: var(--color-iris);
 }
 
 .auth-nav .link {
+  font-family: var(--secondery-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
   color: var(--color-slate)
 }
 
 .auth-nav .link:hover,
 .auth-nav .link:focus {
-    color: var(--color-iris);
-
+  color: var(--color-iris);
 }
 
 /* hero */
@@ -91,8 +93,7 @@ body {
 }
 
 .hero-title {
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: var(--secondery-font);
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -101,12 +102,10 @@ body {
 }
 
 .hero-button {
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: var(--secondery-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
     letter-spacing: 0.04em;
     color: var(--color-white);
     background: var(--color-iris);
@@ -115,43 +114,92 @@ body {
 /* section */
 
 .section-title {
-    color: var(--color-navy-blue);
+  color: var(--color-navy-blue);
 }
 
 .subtitle {
-    color: var(--color-navy-blue)
+  color: var(--color-navy-blue)
 }
 
 .text {
-    color: var(--color-slate);
+  color: var(--color-slate);
 }
 
 /* footer */
 .footer {
-    background: var(--color-navy-blue);
+  background: var(--color-navy-blue);
 }
 
-.logo-light {
-    font-family: 'Raleway';
-    font-style: normal;
+.footer-text {
+  font-family: var(--secondery-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-cloud);
+}
+
+
+
+
+/* portfolio */
+
+/* logo */
+
+.logo {
+    font-family: var(--primary-font);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-decoration: none;
+    color: var(--color-iris);
+}
 
+.logo-dark {
+    color: var(--color-navy-blue);
+}
+
+.logo-light {
     color: var(--color-cloud);
 }
 
-.footer-text {
-    font-family: 'Roboto';
-    font-style: normal;
+.logo:hover,
+.logo:focus {
+    color: var(--color-iris);
+}
+/* site-nav */
+
+.site-nav .link {
+    font-family: var(--secondery-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1, 5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--color-navy-blue);
+
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--color-iris);
+}
+
+.auth-nav .link {
+    font-family: var(--secondery-font);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--color-slate)
+}
 
-    color: var(--color-cloud);
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+    color: var(--color-iris);
 }
 
 /*filter-button  */
@@ -175,4 +223,17 @@ color: var(--color-iris);;
   color: var(--color-iris);
   background-color: var(--color-cornflower);
 
+}
+/* footer portfolio */
+.footer {
+    background: var(--color-navy-blue);
+}
+
+.footer-text {
+    font-family: var(--secondery-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-cloud);
 }
