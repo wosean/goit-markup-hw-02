@@ -71,6 +71,15 @@ body {
   color: var(--color-ocean);
 }
 
+/* address */
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);  
+}
 .auth-nav .link {
   font-family: var(--secondery-font);
   font-weight: 400;
@@ -78,16 +87,26 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: var(--color-slate)
+  color: var(--color-slate);
 }
 
 .auth-nav-mail link {
-  font-style: italic; 
+  text-transform:lowercase;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
 }
 
-/* ??? */
 .auth-nav-tel link {
   font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);  
 }
 
 .auth-nav .link:hover,
@@ -175,8 +194,9 @@ body {
 .logo:hover,
 .logo:focus {
   color: var(--color-iris);
-}  
-/* site-nav-portfolio */
+}
+
+/* site-nav-main */
 
 .site-nav .link {
   font-family: var(--secondery-font);
@@ -193,25 +213,48 @@ body {
   color: var(--color-ocean);
 }
 
+/* address */
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+
 .auth-nav .link {
   font-family: var(--secondery-font);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  
-  color: var(--color-slate)
+  text-decoration: none;
+  color: var(--color-slate);
 }
-.auth-nav-mail link{
-  font-style: italic;
-}
-/* ??? */
-.auth-nav-tel link{
+
+.auth-nav-mail link {
+  text-transform: lowercase;
   font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
 }
+
+.auth-nav-tel link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+
 .auth-nav .link:hover,
 .auth-nav .link:focus {
-    color: var(--color-ocean);
+  color: var(--color-ocean);
 }
 
 /*filter-button  */
