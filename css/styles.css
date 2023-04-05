@@ -1,4 +1,5 @@
-  :root {
+    /* ==========main=========== */
+    :root {
       --primary-font: 'Raleway', sans-serif;
       --secondery-font: 'Roboto',sans-serif;
 
@@ -17,10 +18,9 @@
 }
 
 body {
-  font-family: var(--primary-font);
   font-family: var(--secondery-font);
-
-  color: var(--color-navy-blue);
+  color: var(--color-navy-blue); 
+  color: var(--color-slate);
   background-color: var(--color-white);
 }
 
@@ -52,17 +52,17 @@ body {
   color: var(--color-iris);
 }
 
-/* site-nav */
+
+/* site-nav-main */
 
 .site-nav .link {
   font-family: var(--secondery-font);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1,5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--color-navy-blue);
-
 }
 
 .site-nav .link:hover,
@@ -80,6 +80,15 @@ body {
   color: var(--color-slate)
 }
 
+.auth-nav-mail link {
+  font-style: italic; 
+}
+
+/* ??? */
+.auth-nav-tel link {
+  font-style: normal;
+}
+
 .auth-nav .link:hover,
 .auth-nav .link:focus {
   color: var(--color-iris);
@@ -93,22 +102,22 @@ body {
 }
 
 .hero-title {
-    font-family: var(--secondery-font);
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    color: var(--color-white);
+  font-family: var(--secondery-font);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
 }
 
 .hero-button {
-    font-family: var(--secondery-font);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: var(--color-white);
-    background: var(--color-iris);
+  font-family: var(--secondery-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-white);
+  background: var(--color-iris);
 }
 
 /* section */
@@ -139,64 +148,66 @@ body {
   color: var(--color-cloud);
 }
 
-
-
-
-/* portfolio */
+/* ==========portfolio=========== */
 
 /* logo */
 
 .logo {
-    font-family: var(--primary-font);
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: var(--color-iris);
+  font-family: var(--primary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--color-iris);
 }
 
 .logo-dark {
-    color: var(--color-navy-blue);
+  color: var(--color-navy-blue);
 }
 
 .logo-light {
-    color: var(--color-cloud);
+  color: var(--color-cloud);
 }
 
 .logo:hover,
 .logo:focus {
-    color: var(--color-iris);
-}
-/* site-nav */
+  color: var(--color-iris);
+}  
+/* site-nav-portfolio */
 
 .site-nav .link {
-    font-family: var(--secondery-font);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1, 5;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    color: var(--color-navy-blue);
-
+  font-family: var(--secondery-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--color-navy-blue);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: var(--color-iris);
+  color: var(--color-iris);
 }
 
 .auth-nav .link {
-    font-family: var(--secondery-font);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    color: var(--color-slate)
+  font-family: var(--secondery-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  
+  color: var(--color-slate)
 }
-
+.auth-nav-mail link{
+  font-style: italic;
+}
+/* ??? */
+.auth-nav-tel link{
+  font-style: normal;
+}
 .auth-nav .link:hover,
 .auth-nav .link:focus {
     color: var(--color-iris);
@@ -210,7 +221,7 @@ body {
 }
 
 .filter-btn{
-color: var(--color-iris);;
+  color: var(--color-iris);;
 }
 
 .filter-btn:hover,
@@ -226,14 +237,14 @@ color: var(--color-iris);;
 }
 /* footer portfolio */
 .footer {
-    background: var(--color-navy-blue);
+  background: var(--color-navy-blue);
 }
 
 .footer-text {
-    font-family: var(--secondery-font);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--color-cloud);
+  font-family: var(--secondery-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-cloud);
 }
