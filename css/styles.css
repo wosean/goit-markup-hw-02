@@ -91,7 +91,7 @@ body {
 }
 
 .auth-nav-mail link {
-  text-transform:lowercase;
+  text-transform: lowercase;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -123,7 +123,6 @@ body {
 
 .hero-title {
   font-family: var(--secondery-font);
-  text-align: center;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -174,28 +173,31 @@ body {
   .img-title{
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--color-navy-blue);
   }
    /* section 4 */
 
+.section-team{
+  background-color: var(--color-cloud);
+}
+
 .images-title{
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  background-color: var(--color-cloud);
+  color: var(--color-navy-blue);
+  background-color: var(--color-white);
 }
 
 .subtitle{
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  text-align: center;
+  
   letter-spacing: 0.02em;
   color: var(--color-navy-blue); 
   background-color: var(--color-white);
@@ -205,7 +207,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-slate);
   background-color: var(--color-white);
@@ -330,13 +331,15 @@ body {
 }
 
 .filter-btn{
-  font-family: 'Roboto';
+  font-family: var(--secondery-font);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--color-iris);
+  letter-spacing: 0.04em;
+  background-color: var(--color-cloud);
   cursor: pointer;
 }
 
@@ -357,8 +360,11 @@ body {
 background: #FFFFFF;
 
 }
+.portfolio-card{
+  background: var(--color-white);
 
-.section-title{
+}
+.portfolio-title{
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
