@@ -149,7 +149,7 @@ body {
 .hero-button .link:hover,
 .hero-button .link:focus{
   cursor: pointer;
-  background-color: #404bbf;;
+  background-color: var(--color-ocean);
 }
 
 
