@@ -204,7 +204,7 @@ body {
   background-color: var(--color-cloud);
 }
 
-.image{
+.images{
   background-color: var(--color-white);
 }
 
@@ -382,6 +382,7 @@ body {
 }
 
 .section-item-title{
+  text-decoration: none;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -391,6 +392,7 @@ body {
 }
 
 .section-item-text{
+  text-decoration: none;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
