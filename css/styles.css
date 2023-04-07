@@ -1,7 +1,7 @@
-    /* ==========main=========== */
+    /* ========== main =========== */
     :root {
       --primary-font: 'Raleway', sans-serif;
-      --secondery-font: 'Roboto',sans-serif;
+      --secondery-font: 'Roboto', sans-serif;
 
       --color-iris: #4d5ae5;
       --color-ocean: #404bbf;
@@ -45,11 +45,11 @@ body {
 .logo-dark {
   color: var(--color-navy-blue);
 }
-/*
+
 .logo-light{
   color: var(--color-cloud);
 }
-*/
+
 .logo:hover,
 .logo:focus {
   color: var(--color-iris);
@@ -74,6 +74,7 @@ body {
 }
 
 /* address */
+
 .address {
   font-style: normal;
   font-weight: 400;
@@ -82,6 +83,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-slate);  
 }
+
 .auth-nav .link {
   font-family: var(--secondery-font);
   font-weight: 400;
@@ -147,7 +149,7 @@ body {
 .hero-button .link:hover,
 .hero-button .link:focus{
   cursor: pointer;
-  background-color: var(--color-ocean);
+  background-color: #404bbf;;
 }
 
 
@@ -191,7 +193,7 @@ body {
   background-color: var(--color-cloud);
 }
 
-.images-title{
+.team-title{
   text-align: center;
   font-weight: 700;
   font-size: 36px;
@@ -199,10 +201,14 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-navy-blue);
+  background-color: var(--color-cloud);
+}
+
+.image{
   background-color: var(--color-white);
 }
 
-.subtitle{
+.image-title{
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -211,7 +217,7 @@ body {
   background-color: var(--color-white);
 }
 
-.text{
+.image-text{
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
