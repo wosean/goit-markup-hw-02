@@ -122,8 +122,8 @@ body {
   cursor: pointer;
 }
 
-.hero-button .link:hover,
-.hero-button .link:focus{
+.hero-button:hover,
+.hero-button:focus {
   cursor: pointer;
   background-color: var(--color-ocean);
 }
