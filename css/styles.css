@@ -60,6 +60,8 @@ body {
 
 .site-nav .link {
   font-family: var(--secondery-font);
+  text-transform: capitalize;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -75,42 +77,16 @@ body {
 
 /* address */
 
-.address {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color-slate);  
-}
-
 .auth-nav .link {
   font-family: var(--secondery-font);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: var(--color-slate);
-}
-
-.auth-nav-mail link {
   text-transform: lowercase;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-decoration: none;
   color: var(--color-slate);
-}
-
-.auth-nav-tel link {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color-slate);  
 }
 
 .auth-nav .link:hover,
